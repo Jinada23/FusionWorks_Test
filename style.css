@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Calibri;
+  font-style: normal;
+}
+
+.users {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user {
+  margin: 10px 20px 5px 20px;
+  border: 1px solid #cccccc;
+}
+
+.userPhoto {
+  width: 230px;
+  height: 230px;
+}
+
+.userName {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 1.1rem;
+}
+
+.userDescription {
+  width: 200px;
+  margin: 15px 0px 20px 20px;
+}
+
+.doItBtn {
+  width: 40px;
+  height: 25px;
+  margin: 0 0 15px 15px;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  text-align: center;
+  font-size: 0.8rem;
+  border-radius: 10%;
+}
+
+.doItBtn:hover{
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 132, 255, 0.25);
+}
